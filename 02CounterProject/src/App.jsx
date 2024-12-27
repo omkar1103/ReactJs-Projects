@@ -29,7 +29,7 @@ function App() {
     <>
       <h1>Omkar Sahane</h1>
       <h2>Counter Value:{counter}</h2>
-      <button onClick={addValue} className={but1}>
+      <button onClick={addValue} >
         Increase Value
       </button>
 
