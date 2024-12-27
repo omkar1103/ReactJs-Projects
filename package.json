@@ -4,17 +4,15 @@
   },
   "scripts": {
     "deploy": "npm run deploy-01basicreact && npm run deploy-02CounterProject && npm run deploy-04Bg_color && npm run deploy-05PasswordGenerator && npm run deploy-06currencyConvertor && npm run deploy-07reactRouter && npm run deploy-08miniContext && npm run deploy-09themeSwitcher && npm run deploy-10todoList",
-
-    "deploy-01basicreact": "cd 01basicreact && npm run build && gh-pages -d build",
-    "deploy-02CounterProject": "cd 02CounterProject && npm run build && gh-pages -d build",
-    "deploy-04Bg_color": "cd 04Bg_color && npm run build && gh-pages -d build",
-    "deploy-05PasswordGenerator": "cd 05PasswordGenerator && npm run build && gh-pages -d build",
-    "deploy-06currencyConvertor": "cd 06currencyConvertor && npm run build && gh-pages -d build",
-    "deploy-07reactRouter": "cd 07reactRouter && npm run build && gh-pages -d build",
-    "deploy-08miniContext": "cd 08miniContext && npm run build && gh-pages -d build",
-    "deploy-09themeSwitcher": "cd 09themeSwitcher && npm run build && gh-pages -d build",
-    "deploy-10todoList": "cd 10todoList && npm run build && gh-pages -d build",
-
-    "predeploy": "npm run build"
+    
+    "deploy-01basicreact": "cd 01basicreact && npm install && npm run build && gh-pages -d dist",
+    "deploy-02CounterProject": "cd 02CounterProject && npm install && npm run build && gh-pages -d dist",
+    "deploy-04Bg_color": "cd 04Bg_color && npm install && npm run build && gh-pages -d dist",
+    "deploy-05PasswordGenerator": "cd 05PasswordGenerator && npm install && npm run build && gh-pages -d dist",
+    "deploy-06currencyConvertor": "cd 06currencyConvertor && npm install && npm run build && gh-pages -d dist",
+    "deploy-07reactRouter": "cd 07reactRouter && npm install && npm run build && gh-pages -d dist",
+    "deploy-08miniContext": "cd 08miniContext && npm install && npm run build && gh-pages -d dist",
+    "deploy-09themeSwitcher": "cd 09themeSwitcher && npm install && npm run build && gh-pages -d dist",
+    "deploy-10todoList": "cd 10todoList && npm install && npm run build && gh-pages -d dist"
   }
 }
